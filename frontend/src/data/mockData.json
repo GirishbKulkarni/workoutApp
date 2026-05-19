@@ -1,0 +1,68 @@
+{
+  "userProfile": {
+    "id": "u1",
+    "name": "Alex",
+    "currentWeight": 75,
+    "targetWeight": 70,
+    "streakCount": 5,
+    "totalWorkoutsCompleted": 42,
+    "weeklyConsistency": 85
+  },
+  "attendanceLog": [
+    { "date": "2026-05-18", "status": "Completed" },
+    { "date": "2026-05-17", "status": "Completed" },
+    { "date": "2026-05-16", "status": "Completed" },
+    { "date": "2026-05-15", "status": "Completed" },
+    { "date": "2026-05-14", "status": "Completed" }
+  ],
+  "todayWorkout": {
+    "id": "w1",
+    "date": "2026-05-19",
+    "type": "Push",
+    "targetMuscles": ["Chest", "Shoulders", "Triceps"],
+    "difficulty": "Intermediate",
+    "estimatedDurationMins": 45,
+    "isCompleted": false
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "workoutPlanId": "w1",
+      "name": "Bench Press",
+      "targetMuscle": "Chest",
+      "sets": 4,
+      "reps": "8-10",
+      "weight": 60,
+      "restTimerSecs": 90,
+      "instructions": "Lie flat on the bench, grip bar slightly wider than shoulder width. Lower bar to mid-chest and press up.",
+      "demoThumbnailUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=300&auto=format&fit=crop",
+      "isCompleted": false
+    },
+    {
+      "id": "e2",
+      "workoutPlanId": "w1",
+      "name": "Overhead Press",
+      "targetMuscle": "Shoulders",
+      "sets": 3,
+      "reps": "10-12",
+      "weight": 35,
+      "restTimerSecs": 60,
+      "instructions": "Stand with core tight, press barbell from upper chest to full lockout overhead.",
+      "demoThumbnailUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=300&auto=format&fit=crop",
+      "isCompleted": false
+    },
+    {
+      "id": "e3",
+      "workoutPlanId": "w1",
+      "name": "Tricep Pushdown",
+      "targetMuscle": "Triceps",
+      "sets": 3,
+      "reps": "12-15",
+      "weight": 20,
+      "restTimerSecs": 60,
+      "instructions": "Keep elbows tucked in at sides, push rope attachment down until arms are fully extended.",
+      "demoThumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=300&auto=format&fit=crop",
+      "isCompleted": false
+    }
+  ]
+}
